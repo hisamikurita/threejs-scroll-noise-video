@@ -22,10 +22,10 @@ export default class Mesh {
 
         // マテリアル生成用のパラメータ
         this.materialParam = {
-            useWireframe: false,
+            useWireframe: false
         };
 
-        this.path = "https://hisamikurita.github.io/threejs-scroll-noise/dist/images/noise03.jpg";
+        this.path = "https://hisamikurita.github.io/threejs-scroll-noise-video/dist/images/noise03.jpg";
 
         // マテリアル（シェーダの中）で使用するユニフォーム変数
         this.uniforms = {
