@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    overflow-x: hidden;
+}
+
+body {
+    padding: 14vh 0;
+}
+
+#webgl {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.rect {
+    display: block;
+    position: relative;
+    width: 80%;
+    height: 60vh;
+    margin: 0 auto 18vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 10;
+}
+
+.rect:nth-of-type(1) {
+    background-color: #1a1a1a;
+    background-image: url("https://hisamikurita.github.io/threejs-scroll-noise/dist/images/img01.png");
+}
+
+.rect:nth-of-type(2) {
+    margin-left: auto;
+    background-color: #1a1a1a;
+    background-image: url("https://hisamikurita.github.io/threejs-scroll-noise/dist/images/img02.png");
+}
+
+.rect:nth-of-type(3) {
+    margin-left: auto;
+    background-color: #1a1a1a;
+    background-image: url("https://hisamikurita.github.io/threejs-scroll-noise/dist/images/img03.png");
+}
+
+.rect:nth-of-type(4) {
+    margin-left: auto;
+    background-color: #1a1a1a;
+    background-image: url("https://hisamikurita.github.io/threejs-scroll-noise/dist/images/img04.png");
+}
+
+.rect:nth-of-type(5) {
+    margin-left: auto;
+    background-color: #1a1a1a;
+    background-image: url("https://hisamikurita.github.io/threejs-scroll-noise/dist/images/img05.png");
+}
+
+.rect:nth-of-type(6) {
+    margin-left: auto;
+    background-color: #1a1a1a;
+    background-image: url("https://hisamikurita.github.io/threejs-scroll-noise/dist/images/img06.png");
+}
+
+.rect:nth-of-type(7) {
+    margin-left: auto;
+    background-color: #1a1a1a;
+    background-image: url("https://hisamikurita.github.io/threejs-scroll-noise/dist/images/img07.png");
+}
+
+.rect:nth-of-type(8) {
+    margin-left: auto;
+    background-color: #1a1a1a;
+    background-image: url("https://hisamikurita.github.io/threejs-scroll-noise/dist/images/img08.png");
+}
